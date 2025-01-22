@@ -131,7 +131,7 @@ nav {
   padding: 5px 0;
   display: flex;
   justify-content: space-between;
-  color: #444;
+  color: rgba(245, 217, 2, 0.967);
 }
 
 /* equally span icons across available space */
@@ -154,7 +154,7 @@ div.score {
 .icon-container .language,
 li .language,
 td .language{
-  background-color: #444;
+  background-color: rgba(245, 217, 2, 0.967)444;
   color: white;
   border-radius: 1rem;
   width: 2rem;
@@ -192,7 +192,7 @@ li .language {
 
 /* override switch lever active color */
 .switch label input[type=checkbox]:checked+.lever {
-  background-color: rgba(0,0,0,0.38);
+  background-color: rgba(245, 217, 2, 0.967);
 }
 
 /* override switch handle active color */
@@ -202,7 +202,7 @@ li .language {
 
 /* override switch active color */
 .switch label input[type=checkbox]:checked+.lever:before {
-  background-color: rgba(3,155,229,0.15);
+  background-color: rgba(245, 217, 2, 0.967);
 }
 
 /* make icon titles same width as icons */
@@ -373,7 +373,7 @@ li .language {
 /* move close button to upper right corner */
 .modal .modal-close {
   border-radius: 100px;
-  border: 2px solid #1E88E5;
+  border: 2px solid rgba(245, 217, 2, 0.967);
   font-weight: bold;
   line-height: 30px;
   padding: 0 12px;
@@ -569,17 +569,17 @@ tr:hover {
 
 /* blue hover shadow for cards */
 .hoverable:hover {
-  box-shadow: 0 8px 17px 0 rgba(13,61,103,0.2), 0 6px 20px 0 rgba(13,61,103,0.2);
+  box-shadow: 0 8px 17px 0 rgba(245, 217, 2, 0.967), 0 6px 20px 0 rgba(245, 217, 2, 0.967);
 }
 
 /* blue hover shadow for modals */
 .modal {
-  box-shadow: 0 24px 38px 3px rgba(13,61,103,0.14), 0 9px 46px 8px rgba(13,61,103,0.12), 0 11px 15px -7px rgba(13,61,103,0.2);
+  box-shadow: 0 24px 38px 3px rgba(245, 217, 2, 0.967), 0 9px 46px 8px rgba(245, 217, 2, 0.967), 0 11px 15px -7px rgba(245, 217, 2, 0.967);
 }
 
 /* dark blue overlay color */
 .modal-overlay {
-  background: #0a3050;
+  background: rgba(245, 217, 2, 0.967);
 }
 
 /* little blue pill around topics in details view */
